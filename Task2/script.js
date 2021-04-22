@@ -1,20 +1,20 @@
 "use strict";
-console.log("Hallo Welt");
-console.log("oh no");
-function a1() {
-    let potatoe = "ich bin eine kartoffel";
-    if (potatoe == "ich bin eine kartoffel")
-        return potatoe;
-    return "hall";
+let x = "Hallo";
+console.log(x);
+func1(x);
+console.log(x);
+func2();
+func3();
+console.log(x);
+function func1(y) {
+    y = "Bla";
+    console.log(y);
 }
-var Color;
-(function (Color) {
-    Color[Color["Red"] = 0] = "Red";
-    Color[Color["Green"] = 1] = "Green";
-    Color[Color["Blue"] = 2] = "Blue";
-})(Color || (Color = {}));
-function cheese(name) {
-    let user = name;
-    console.log(user);
+function func2() {
+    let x = "Blubb";
+    console.log(x);
+}
+function func3() {
+    x = "Test";
 }
 //# sourceMappingURL=script.js.map
